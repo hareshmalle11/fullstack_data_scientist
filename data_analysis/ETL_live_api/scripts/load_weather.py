@@ -11,6 +11,7 @@ def load_weather_data():
     if not os.path.exists(staged_file):
         raise FileNotFoundError(f"{staged_file} not found. Please run the transform step first.")
     df=pd.read_csv(staged_file)
+        
     # convert time stampt into strings
     df["time"]=pd.to_datetime(df["time"]).dt.strftime("%Y-%m-%d %H:%M:%S")
     df["extracted_at"]=pd.to_datetime(df["extracted_at"]).dt.strftime("%Y-%m-%d %H:%M:%S")
