@@ -1,0 +1,12 @@
+[ 2026-03-16 09:13:14,180 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-16 09:13:14,201 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-16 09:13:14,205 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-16 09:13:19,065 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-16 09:13:19,082 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-16 09:13:19,087 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-16 09:14:23,878 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-16 09:14:30,104 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 4)
+[ 2026-03-16 09:14:32,725 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 4)
+[ 2026-03-16 09:14:38,913 ] 17 root - INFO - DataTransform: scaling features using Standard scaler
+[ 2026-03-16 09:14:38,913 ] 33 root - INFO - DataTransform: scaled 4 numerical columns
+[ 2026-03-16 09:14:38,929 ] 47 root - INFO - DataTransform: saved transformed dataset -> C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\transformed_data.csv - shape (50, 4)

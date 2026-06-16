@@ -1,0 +1,11 @@
+[ 2026-03-15 20:32:33,766 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-15 20:32:33,778 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (200, 5)
+[ 2026-03-15 20:32:33,783 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (200, 5)
+[ 2026-03-15 20:32:37,379 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-15 20:32:37,395 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (200, 5)
+[ 2026-03-15 20:32:37,399 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (200, 5)
+[ 2026-03-15 20:33:08,170 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (200, 5)
+[ 2026-03-15 20:33:12,416 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (200, 5)
+[ 2026-03-15 20:33:21,599 ] 17 root - INFO - DataTransform: scaling features using Standard scaler
+[ 2026-03-15 20:33:21,613 ] 33 root - INFO - DataTransform: scaled 5 numerical columns
+[ 2026-03-15 20:33:21,624 ] 47 root - INFO - DataTransform: saved transformed dataset -> C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\transformed_data.csv - shape (200, 5)

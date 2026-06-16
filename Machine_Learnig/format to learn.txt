@@ -1,0 +1,200 @@
+# Topic Name
+
+## 1. Overview
+A short explanation of the concept.
+
+Explain:
+- What the concept is
+- Why it exists
+- What problem it solves
+
+Example:
+This concept is used in machine learning to measure how well a model performs.
+
+---
+
+# 2. Definition
+
+Provide the formal definition.
+
+Example:
+
+Mean Absolute Error (MAE) is a regression evaluation metric that calculates the average absolute difference between predicted values and actual values.
+
+---
+
+# 3. Mathematical Formulation
+
+Present the mathematical formula.
+
+Formula:
+
+Metric = (1/n) Σ f(actual, predicted)
+
+Where:
+
+- n = number of observations
+- y = actual value
+- ŷ = predicted value
+
+Explain what each term means.
+
+---
+
+# 4. Intuition (Why It Works)
+
+Explain the concept **in simple words**.
+
+Example:
+
+Instead of looking at individual prediction errors, the metric summarizes the overall error of the model.
+
+This helps determine whether the model is accurate or not.
+
+---
+
+# 5. Step-by-Step Working
+
+Explain the process clearly.
+
+Steps:
+
+1. Collect actual values
+2. Generate predicted values from the model
+3. Calculate the error between them
+4. Apply the formula
+5. Compute the final metric
+
+---
+
+# 6. Example
+
+Provide a simple example.
+
+Actual values:
+
+```
+[10, 20, 30]
+```
+
+Predicted values:
+
+```
+[12, 18, 29]
+```
+
+Then show how the calculation works.
+
+---
+
+# 7. Key Terms
+
+Define important terminology used in the concept.
+
+Term | Meaning
+---- | ----
+Residual | Difference between actual and predicted value
+Variance | Spread of data
+Bias | Systematic error in prediction
+
+---
+
+# 8. Applications
+
+Where this concept is used.
+
+Examples:
+
+- Machine Learning model evaluation
+- Forecasting systems
+- Financial prediction models
+- Recommendation systems
+
+---
+
+# 9. Advantages
+
+List benefits.
+
+- Easy to understand
+- Simple mathematical formulation
+- Widely used in machine learning
+
+---
+
+# 10. Limitations
+
+Explain drawbacks.
+
+- Sensitive to outliers
+- May not reflect model interpretability
+- Depends on data distribution
+
+---
+
+# 11. Comparison with Other Methods
+
+Compare with related concepts.
+
+Method | Difference
+------ | ----------
+MAE | Treats all errors equally
+MSE | Penalizes large errors more
+RMSE | Provides error in original unit
+
+---
+
+# 12. When to Use
+
+Explain conditions where it works best.
+
+Use this method when:
+
+- You want simple interpretation
+- Data does not contain extreme outliers
+- Model evaluation is required
+
+---
+
+# 13. When Not to Use
+
+Avoid using when:
+
+- Data contains heavy noise
+- Outliers dominate the dataset
+- Another metric fits the objective better
+
+---
+
+# 14. Real-World Example
+
+Example use case.
+
+Example:
+
+In house price prediction, evaluation metrics determine how close predicted prices are to actual market prices.
+
+---
+
+# 15. Implementation (Python Example)
+
+```python
+from sklearn.metrics import mean_absolute_error
+
+y_true = [10,20,30]
+y_pred = [12,18,29]
+
+mae = mean_absolute_error(y_true, y_pred)
+
+print(mae)
+```
+
+---
+
+# 16. Summary
+
+Key points:
+
+- The concept measures model performance
+- Provides quantitative evaluation
+- Helps compare machine learning models

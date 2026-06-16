@@ -1,0 +1,15 @@
+[ 2026-03-15 20:14:40,228 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-15 20:14:40,244 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:40,252 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:43,570 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-15 20:14:43,588 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:43,593 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:47,559 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:54,318 ] 96 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-15 20:14:58,590 ] 17 root - INFO - DataTransform: scaling features using Standard scaler
+[ 2026-03-15 20:14:58,606 ] 33 root - INFO - DataTransform: scaled 4 numerical columns
+[ 2026-03-15 20:14:58,614 ] 47 root - INFO - DataTransform: saved transformed dataset -> C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\transformed_data.csv - shape (50, 5)
+[ 2026-03-15 20:15:23,886 ] 118 root - INFO - ClassificationTransform: encoding target column 'R&D Spend'
+[ 2026-03-15 20:15:23,886 ] 127 root - INFO - ClassificationTransform: target 'R&D Spend' is already numeric. Assuming it is encoded.
+[ 2026-03-15 20:15:40,303 ] 118 root - INFO - ClassificationTransform: encoding target column 'State'
+[ 2026-03-15 20:15:40,304 ] 125 root - INFO - ClassificationTransform: target 'State' encoded successfully.

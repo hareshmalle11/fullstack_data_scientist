@@ -1,0 +1,80 @@
+Artificial intelligence is changing the world.
+Machine learning is a branch of artificial intelligence.
+Deep learning uses neural networks.
+Neural networks learn patterns from data.
+Transformers use self attention.
+Self attention helps models focus on important words.
+GPT is a transformer model.
+GPT predicts the next token.
+Language models learn from text.
+Text data is used to train language models.
+
+Python is a popular programming language.
+Python is used for machine learning.
+TensorFlow is a deep learning framework.
+TensorFlow helps build neural networks.
+Neural networks contain layers and weights.
+Weights are updated using backpropagation.
+Backpropagation uses gradients.
+Gradients help reduce loss.
+Loss measures prediction error.
+Training improves model performance.
+
+RNN stands for recurrent neural network.
+RNN processes sequences step by step.
+LSTM solves long term dependency problems.
+Attention improves sequence learning.
+Transformers replace recurrence with attention.
+Multi head attention learns different relationships.
+Positional encoding provides word order information.
+Embeddings convert words into vectors.
+Vectors represent meaning in numerical form.
+Tokens are the basic units of text.
+
+The cat sits on the mat.
+The dog runs in the park.
+The bird flies in the sky.
+The sun rises in the east.
+The moon shines at night.
+The student studies every day.
+The teacher explains difficult concepts.
+The programmer writes Python code.
+The engineer builds useful systems.
+The scientist performs experiments.
+
+Machine learning is fun.
+Deep learning is powerful.
+Transformers are powerful models.
+Attention is an important concept.
+Python is easy to learn.
+TensorFlow is useful for deep learning.
+GPT generates text.
+Language models generate text.
+Neural networks learn from examples.
+Artificial intelligence learns patterns from data.
+
+What is machine learning?
+Machine learning is the process of learning from data.
+
+What is deep learning?
+Deep learning is a subset of machine learning.
+
+What are transformers?
+Transformers are neural networks based on attention.
+
+What is GPT?
+GPT is a transformer used for text generation.
+
+What is attention?
+Attention helps a model focus on relevant information.
+
+The future of artificial intelligence is exciting.
+Researchers build better language models.
+Students learn machine learning concepts.
+Developers create intelligent applications.
+Data is important for machine learning.
+Large datasets improve model performance.
+Practice helps build deep understanding.
+Learning requires curiosity and consistency.
+Artificial intelligence is transforming industries.
+Technology continues to evolve rapidly.

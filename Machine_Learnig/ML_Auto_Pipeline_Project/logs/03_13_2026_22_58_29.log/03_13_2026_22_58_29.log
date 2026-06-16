@@ -1,0 +1,61 @@
+[ 2026-03-13 22:59:17,397 ] 28 root - INFO - Pipeline Step 1: Data Ingestion started
+[ 2026-03-13 22:59:17,397 ] 23 root - INFO - Data ingestion started
+[ 2026-03-13 22:59:17,397 ] 27 root - INFO - Dataset loaded from user upload successfully
+[ 2026-03-13 22:59:17,441 ] 34 root - INFO - Raw data saved to artifacts folder
+[ 2026-03-13 22:59:17,468 ] 38 root - INFO - Train test split completed
+[ 2026-03-13 22:59:17,475 ] 43 root - INFO - Train and test data saved to artifacts folder
+[ 2026-03-13 22:59:17,478 ] 30 root - INFO - Pipeline Step 1: Data Ingestion completed
+[ 2026-03-13 22:59:17,478 ] 33 root - INFO - Pipeline Step 2: Data Analysis started
+[ 2026-03-13 22:59:17,478 ] 20 root - INFO - Data analysis started
+[ 2026-03-13 22:59:17,496 ] 29 root - INFO - Basic info collected
+[ 2026-03-13 22:59:17,498 ] 34 root - INFO - Missing values analyzed
+[ 2026-03-13 22:59:17,499 ] 38 root - INFO - Data types analyzed
+[ 2026-03-13 22:59:17,503 ] 44 root - INFO - Class distribution analyzed
+[ 2026-03-13 22:59:17,504 ] 48 root - INFO - Duplicate rows checked
+[ 2026-03-13 22:59:17,517 ] 53 root - INFO - Numeric summary generated
+[ 2026-03-13 22:59:17,517 ] 65 root - INFO - Correlation analysis completed
+[ 2026-03-13 22:59:17,522 ] 77 root - INFO - Outlier detection completed
+[ 2026-03-13 22:59:17,524 ] 84 root - INFO - Dataset report saved to artifacts
+[ 2026-03-13 22:59:17,524 ] 35 root - INFO - Pipeline Step 2: Data Analysis completed
+[ 2026-03-13 22:59:17,524 ] 38 root - INFO - Pipeline Step 3: Feature Engineering started
+[ 2026-03-13 22:59:17,526 ] 70 root - INFO - Feature engineering started
+[ 2026-03-13 22:59:17,540 ] 74 root - INFO - Train and test data loaded for feature engineering
+[ 2026-03-13 22:59:17,542 ] 42 root - INFO - Removed useless columns: []
+[ 2026-03-13 22:59:17,544 ] 42 root - INFO - Removed useless columns: []
+[ 2026-03-13 22:59:17,544 ] 65 root - INFO - Created ratio feature: YearsExperience_to_Salary_ratio
+[ 2026-03-13 22:59:17,544 ] 65 root - INFO - Created ratio feature: YearsExperience_to_Salary_ratio
+[ 2026-03-13 22:59:17,550 ] 97 root - INFO - Engineered train and test data saved to artifacts
+[ 2026-03-13 22:59:17,550 ] 41 root - INFO - Pipeline Step 3: Feature Engineering completed
+[ 2026-03-13 22:59:17,550 ] 44 root - INFO - Pipeline Step 4: Data Transformation started
+[ 2026-03-13 22:59:17,550 ] 57 root - INFO - Data transformation started
+[ 2026-03-13 22:59:17,582 ] 61 root - INFO - Engineered train and test data loaded
+[ 2026-03-13 22:59:17,583 ] 81 root - INFO - Numeric columns: ['YearsExperience', 'YearsExperience_to_Salary_ratio']
+[ 2026-03-13 22:59:17,583 ] 82 root - INFO - Categorical columns: []
+[ 2026-03-13 22:59:17,583 ] 50 root - INFO - Preprocessor pipeline created successfully
+[ 2026-03-13 22:59:17,595 ] 90 root - INFO - Data transformation applied on train and test
+[ 2026-03-13 22:59:17,599 ] 100 root - INFO - Transformed arrays saved to artifacts
+[ 2026-03-13 22:59:17,599 ] 105 root - INFO - Preprocessor saved to artifacts
+[ 2026-03-13 22:59:17,599 ] 51 root - INFO - Pipeline Step 4: Data Transformation completed
+[ 2026-03-13 22:59:17,599 ] 54 root - INFO - Pipeline Step 5: Model Training started
+[ 2026-03-13 22:59:17,599 ] 42 root - INFO - Model training started
+[ 2026-03-13 22:59:17,625 ] 47 root - INFO - Transformed train and test arrays loaded
+[ 2026-03-13 22:59:17,625 ] 69 root - INFO - Training Logistic Regression...
+[ 2026-03-13 22:59:17,648 ] 73 root - INFO - Logistic Regression \u2192 Accuracy: 0.0%
+[ 2026-03-13 22:59:17,648 ] 69 root - INFO - Training KNN...
+[ 2026-03-13 22:59:17,661 ] 73 root - INFO - KNN \u2192 Accuracy: 0.0%
+[ 2026-03-13 22:59:17,661 ] 69 root - INFO - Training SVM...
+[ 2026-03-13 22:59:17,674 ] 73 root - INFO - SVM \u2192 Accuracy: 0.0%
+[ 2026-03-13 22:59:17,674 ] 69 root - INFO - Training Decision Tree...
+[ 2026-03-13 22:59:17,687 ] 73 root - INFO - Decision Tree \u2192 Accuracy: 0.0%
+[ 2026-03-13 22:59:17,687 ] 69 root - INFO - Training Random Forest...
+[ 2026-03-13 22:59:17,834 ] 73 root - INFO - Random Forest \u2192 Accuracy: 0.0%
+[ 2026-03-13 22:59:17,834 ] 79 root - INFO - Best model selected: Logistic Regression with accuracy 0.0%
+[ 2026-03-13 22:59:17,834 ] 85 root - INFO - Best model saved to artifacts
+[ 2026-03-13 22:59:17,834 ] 98 root - INFO - Model report saved to artifacts
+[ 2026-03-13 22:59:17,834 ] 60 root - INFO - Pipeline Step 5: Model Training completed
+[ 2026-03-13 22:59:17,834 ] 62 root - INFO - Full training pipeline completed successfully
+[ 2026-03-13 22:59:17,834 ] 84 root - INFO - Training pipeline completed from frontend
+[ 2026-03-13 23:00:48,094 ] 98 root - INFO - Custom data prepared for prediction: {'YearsExperience': 70.0}
+[ 2026-03-13 23:00:48,095 ] 38 root - INFO - Prediction pipeline started
+[ 2026-03-13 23:00:48,171 ] 50 root - INFO - Model and preprocessor loaded successfully
+[ 2026-03-13 23:00:48,171 ] 54 root - INFO - Input data received: {'YearsExperience': 70.0}

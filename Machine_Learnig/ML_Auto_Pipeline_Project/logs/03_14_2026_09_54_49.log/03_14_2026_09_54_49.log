@@ -1,0 +1,19 @@
+[ 2026-03-14 09:54:56,425 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-14 09:54:56,443 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-14 09:54:59,960 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-14 09:54:59,972 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-14 09:55:13,311 ] 71 root - INFO - DataTransform: saved final dataset \u2192 C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\cleaned_data.csv — shape (50, 5)
+[ 2026-03-14 10:07:50,486 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-14 10:07:50,496 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-14 10:07:51,892 ] 14 root - INFO - DataIngestion: starting file ingestion
+[ 2026-03-14 10:07:51,900 ] 26 root - INFO - DataIngestion: saved raw data to C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\raw_data.csv — shape (50, 5)
+[ 2026-03-14 10:08:06,816 ] 17 root - INFO - DataTransform: scaling features using Normalize scaler
+[ 2026-03-14 10:08:11,139 ] 17 root - INFO - DataTransform: scaling features using MinMax scaler
+[ 2026-03-14 10:08:11,154 ] 33 root - INFO - DataTransform: scaled 4 numerical columns
+[ 2026-03-14 10:08:11,159 ] 47 root - INFO - DataTransform: saved transformed dataset -> C:\Users\hares\OneDrive\Desktop\tekWorks\fullstack_data_scientist\Machine_Learnig\ML_Auto_Pipeline_Project\artifacts\transformed_data.csv - shape (50, 5)
+[ 2026-03-14 10:08:44,711 ] 58 root - INFO - DataTransform: splitting data — target=Profit, test_size=0.15
+[ 2026-03-14 10:08:44,739 ] 82 root - INFO - DataTransform: train shape (42, 5), test shape (8, 5) — saved to artifacts/
+[ 2026-03-14 10:08:49,766 ] 58 root - INFO - DataTransform: splitting data — target=Profit, test_size=0.15
+[ 2026-03-14 10:08:49,786 ] 82 root - INFO - DataTransform: train shape (42, 5), test shape (8, 5) — saved to artifacts/
+[ 2026-03-14 10:08:51,473 ] 58 root - INFO - DataTransform: splitting data — target=Profit, test_size=0.15
+[ 2026-03-14 10:08:51,482 ] 82 root - INFO - DataTransform: train shape (42, 5), test shape (8, 5) — saved to artifacts/

@@ -1,0 +1,7 @@
+langchain
+langchain-community
+chromadb
+pypdf
+streamlit
+sentence-transformers
+ollama
